@@ -30,6 +30,11 @@ def fake_data():
 
     return df
 
+def display_chart(df):
+    """Function to display an interactive line chart using Plotly"""
+    fig = px.line(df, x="datetime", y="values", title="Fake Data over Time")
+    st.plotly_chart(fig)
+
 
 def main():
     """A streamlit app template"""

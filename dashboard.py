@@ -11,12 +11,12 @@ from pages.datatable import DataTable
 from utils.sidebar import sidebar_caption
 
 # Config the whole app
-# st.set_page_config(
-#     page_title="A Dashboard Template",
-#     page_icon="🧊",
-#     layout="wide",
-#     initial_sidebar_state="expanded",
-# )
+st.set_page_config(
+     page_title="A Dashboard Template",
+     page_icon="🧊",
+     layout="wide",
+     initial_sidebar_state="expanded",
+ )
 
 
 @st.cache()
